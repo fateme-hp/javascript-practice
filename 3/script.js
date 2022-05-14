@@ -24,3 +24,7 @@ for (let i = 0; i < xArray0.length; i++) {
 }
 
 console.log(specialArray);
+
+for (let i = 0; i < specialArray.length; i++){
+    console.log(specialArray[i]);
+}
