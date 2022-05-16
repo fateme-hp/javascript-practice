@@ -24,13 +24,17 @@ p{
     font-size: 25px;
 }
 
+#practice {
+  display: flex;
+}
 .lesson {
-  margin: 10% 20%;
+  margin: 5% 1%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   background-color: #222;
+  flex: 1 0 auto;
 }
 
 .lesson span {
@@ -42,6 +46,7 @@ p{
 .lesson-links {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 5%;
 }
 
